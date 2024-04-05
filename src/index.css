@@ -26,6 +26,11 @@ body{
   font-style: normal;
 }
 
+canvas{
+  height: 600px !important;
+  width: 600px !important;
+
+}
 
 
 @font-face {

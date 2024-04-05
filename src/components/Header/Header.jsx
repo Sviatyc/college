@@ -1,7 +1,9 @@
+import EarthPlanet from "../EarthPlanet/EarthPlanet"
+
 function Header() {
 
   return (
-    <header className="flex flex-row relative">
+    <header className="flex flex-row relative select-none">
       <img src="./image/undp-logo-blue.svg" alt="logo" className='absolute right-[72px]'/>
       <div className="flex flex-col">
         <h1 className="text-[172px] bebas font-[400] mt-[188px] leading-[171px] inline-block">
@@ -20,8 +22,8 @@ function Header() {
           <button className="text-[24px] font-[700] raleway mt-[92px] w-[450px] h-[57px] bg-[#04F06A] leading-[28.18px] hover:opacity-[0.6]">ЧИТАТИ ДАЛІ</button>
         </a>
       </div>
-      <div>
-        <img src="./image/earth.svg" alt="earth" className="absolute left-[950px] top-5"/>
+      <div className="absolute top-[200px] right-[100px]">
+        <EarthPlanet />
       </div>
       <img src="./image/Planet.gif" alt="giff" className="absolute top-[530px] right-[890px]" />
     </header>

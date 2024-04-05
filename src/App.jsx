@@ -8,6 +8,7 @@ import People from "./components/People/People"
 import FromYourself from "./components/FromYourself/FromYourself"
 import Footer from "./components/Footer/Footer"
 
+
 function App() {
   return (
     <div className="ml-[72px]">

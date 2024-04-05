@@ -30,7 +30,7 @@ function BadCons() {
           </div>
         </div>
         <img src="./image/OBJECTS.svg" alt="photo" className="absolute top-[0px] right-[690px]"/>
-        <img src="./image/Group.svg" alt="photo" className="absolute top-[250px] right-[200px]"/>
+        <img src="./image/Group.svg" alt="photo" className="absolute top-[250px] right-[50px]"/>
       </div>
     </section>
   )
