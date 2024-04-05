@@ -4,7 +4,6 @@ function Header() {
 
   return (
     <header className="flex flex-row relative select-none">
-      <img src="./image/undp-logo-blue.svg" alt="logo" className='absolute right-[72px]'/>
       <div className="flex flex-col">
         <h1 className="text-[172px] bebas font-[400] mt-[188px] leading-[171px] inline-block">
           <span className="text-[#04F06A] leading-[1]">ЗЕМЛЯ — </span>
